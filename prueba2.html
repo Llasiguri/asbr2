@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Rally Virtual Distrital</title>
+<style>
+ 		div {
+            color: rgb(255, 255, 255);
+			text-align: center;
+        }  
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+
+</style>
+<script>
+function unhide()
+{
+document.getElementById("pista").innerText="La clave está en un mamífero nocturno, capaz de vuelo continuo";
+}
+</script>
+
+
+
+</head>
+
+<body>
+<div>
+<h1>Desafío 2</h1>
+
+<p>La clave es "acuarela."</p>
+
+<button onclick="unhide()">Pista</button>
+<p id="pista"></p>
+
+<br>
+<br>
+
+<form action="prueba2verif.php">
+<input name="code1" type="text" placeholder="00000000" maxlength="8"><br><br>
+<input type="submit" value="Acceder">
+</form>
+<br>
+<img src="scoutsofthedark.png" alt="default" style="width:228px">
+
+</div>
+</body>
+</html>
